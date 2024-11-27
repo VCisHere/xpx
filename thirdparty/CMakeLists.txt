@@ -1,0 +1,10 @@
+add_subdirectory(SDL)
+
+set(THIRD_PARTY_INCLUDE_DIR
+	${CMAKE_CURRENT_SOURCE_DIR}
+
+    # SDL
+    ${CMAKE_CURRENT_SOURCE_DIR}/SDL/include
+
+	PARENT_SCOPE
+)
